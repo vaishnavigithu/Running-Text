@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+}
+body{
+    background-color: coral;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    margin: 0;
+}
+
+div{
+    position: absolute;
+    bottom: 20px;
+    padding: 10px 20px;
+    font-size: 20px;
+    background: rgba(0,0,0,0.1);
+}
+input{
+    width: 50px;
+    padding:5px;
+    font-size:20px;
+    border: none;
+    background-color: darksalmon;
+    text-align: center;
+}
